@@ -2,7 +2,8 @@
 
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import { FormEvent, useEffect, useState } from "react";
+import { useEffect, useState } from "react";
+import type { FormEvent } from "react";
 import { SITE_NAV, WEBSITE_IMAGES } from "@/lib/website-content";
 
 const slides = [
