@@ -46,7 +46,7 @@ function ServicesPage() {
         <div className="ew-container">
           <div className="ew-section-heading" data-reveal>
             <div><p className="ew-kicker">SERVICE PORTFOLIO</p><h2>Connected services. Clear points of contact.</h2></div>
-            <p>Explore each service area to understand the published scope. Project-specific capability, availability and contracting entity are confirmed at enquiry stage.</p>
+            <p>Explore the service areas below, then speak with the team about your project, location and operational requirements.</p>
           </div>
           <div className="ew-services-list">
             {SERVICE_LINKS.map((service, index) => (
@@ -158,8 +158,8 @@ function ServicePage({ page }: { page: (typeof SITE_PAGES)[string] }) {
           <div className="ew-gallery-strip" data-reveal>
             {extraImages.map((src, index) => <img key={src + index} src={src} alt="Elshcon operation or facility image from the company's public website" loading="lazy" />)}
           </div>
-          <p className="ew-form-note">Images shown are drawn from Elshcon's publicly available website gallery.</p>
-          <div className="ew-note">For current fleet schedules, equipment specifications, certificate copies, project references and service availability, contact Elshcon directly. Published information may not reflect live operational status.</div>
+          <p className="ew-form-note">A selection of images from Elshcon's marine and industrial operations.</p>
+          <div className="ew-note">For current fleet schedules, equipment specifications, certificates, project references and service availability, contact the team directly.</div>
         </div>
       </section>
       <section className="ew-cta-band"><div className="ew-container ew-cta-content"><div><p className="ew-kicker ew-light-kicker">SERVICE ENQUIRY</p><h2>Have a scope you would like to discuss?</h2><p>Send the details and the team can advise on the right next step.</p></div><Link href="/website/contact" className="ew-button ew-button-primary">Send an enquiry </Link></div></section>
@@ -172,7 +172,7 @@ function QualityPage({ page }: { page: (typeof SITE_PAGES)[string] }) {
     <>
       <section className="ew-section">
         <div className="ew-container ew-intro-row">
-          <div data-reveal><p className="ew-kicker">QUALITY AND HSE</p><h2>Safety and quality are part of the operating approach.</h2><p>{page.intro}</p><p>Elshcon's published Quality and HSE policy statements refer to quality management, legal requirements, occupational health and safety, environmental protection and risk control.</p></div>
+          <div data-reveal><p className="ew-kicker">QUALITY AND HSE</p><h2>Safety and quality are part of the operating approach.</h2><p>{page.intro}</p><p>Elshcon's Quality and HSE approach covers quality management, legal compliance, occupational health and safety, environmental protection and operational risk control.</p></div>
           <div className="ew-intro-image" data-reveal><img src={page.image} alt={page.imageAlt} /></div>
         </div>
         <div className="ew-container" style={{ marginTop: 46 }}>
