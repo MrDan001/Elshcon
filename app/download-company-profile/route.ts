@@ -74,7 +74,7 @@ function makePages() {
   p1 += text(199, 465, 10, "HEAD OFFICE", [0.62, 0.85, 0.84], true);
   p1 += text(199, 491, 13, "Port Harcourt, Nigeria", white, true);
   p1 += text(42, 595, 9, "OUR CORE SERVICE AREAS", [0.62, 0.85, 0.84], true);
-  const cards = [
+  const cards: [string, string][] = [
     ["MARINE", "Logistics and vessel chartering"],
     ["SUPPLY BASE", "Jetty, terminal and shore support"],
     ["INDUSTRIAL", "Fabrication and construction"],
