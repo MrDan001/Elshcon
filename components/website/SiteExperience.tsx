@@ -8,28 +8,28 @@ import { SITE_NAV, WEBSITE_IMAGES } from "@/lib/website-content";
 
 const slides = [
   {
-    title: "Integrated support for energy and marine operations.",
+    title: "Marine logistics for demanding energy operations.",
     copy: "Marine logistics, vessel chartering and practical shore-base support.",
     image: WEBSITE_IMAGES.tug,
     alt: "Tugboat photographed in Elshcon's published marine gallery",
     label: "Marine logistics",
   },
   {
-    title: "The shore-side capability behind the operation.",
+    title: "A working base for marine and supply-chain activity.",
     copy: "Jetty and supply base facilities, workshops and warehousing in Port Harcourt.",
     image: WEBSITE_IMAGES.jetty,
     alt: "Jetty and supply base facility shown on Elshcon's public website",
     label: "Jetty and supply base",
   },
   {
-    title: "Fabrication and maintenance, close to the work.",
+    title: "Fabrication capability, close to the work.",
     copy: "Industrial fabrication, construction and pipeline-facility support.",
     image: WEBSITE_IMAGES.workshop,
     alt: "Fabrication and maintenance work photographed for Elshcon's public website",
     label: "Fabrication and construction",
   },
   {
-    title: "Field-focused pipeline and flowline services.",
+    title: "Pipeline and facilities support in the field.",
     copy: "Onshore and offshore pipeline construction and maintenance.",
     image: WEBSITE_IMAGES.pipeline,
     alt: "Pipeline maintenance activity shown in Elshcon's public gallery",
@@ -71,7 +71,7 @@ export function HeroSlideshow() {
               <p className="ew-hero-copy">{slide.copy}</p>
               <div className="ew-hero-actions">
                 <Link href="/website/services" className="ew-button ew-button-primary">
-                  Explore our services <span aria-hidden="true">→</span>
+                  Explore our services 
                 </Link>
                 <Link href="/website/contact" className="ew-button ew-button-ghost">
                   Speak with our team
@@ -136,7 +136,7 @@ export function SiteHeader() {
           ))}
         </nav>
         <div className="ew-nav-actions">
-          <Link className="ew-nav-cta" href="/website/contact">Make an enquiry <span aria-hidden="true">↗</span></Link>
+          <Link className="ew-nav-cta" href="/website/contact">Make an enquiry </Link>
           <Link className="ew-demo-link" href="/">Back to demo</Link>
         </div>
         <button
@@ -245,7 +245,7 @@ export function MailtoForm({
         </label>
         <label className="ew-form-wide">How can Elshcon help? <textarea name="message" rows={5} required placeholder="Tell us about your requirements..." /></label>
       </div>
-      <button className="ew-button ew-button-primary ew-form-submit" type="submit">{buttonLabel} <span aria-hidden="true">→</span></button>
+      <button className="ew-button ew-button-primary ew-form-submit" type="submit">{buttonLabel}</button>
       <p className="ew-form-note" role="status">
         {prepared ? "Your email application should now be open. Please review and send the message there." : "This form prepares an email on your device; it does not silently submit or store your information on this website."}
       </p>
