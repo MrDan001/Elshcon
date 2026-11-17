@@ -13,7 +13,7 @@
   --ew-white: #fff;
 }
 html { scroll-behavior: smooth; }
-body { padding-bottom: 0 !important; background: #fff; color: var(--ew-ink); }
+body:has(.ew-main) { padding-bottom: 0 !important; background: #fff; color: var(--ew-ink); }
 .ew-main { min-height: 65vh; overflow: hidden; font-family: "DM Sans", "Segoe UI", Arial, sans-serif; }
 .ew-main h1,.ew-main h2,.ew-main h3,.ew-header,.ew-footer { font-family: "Manrope", "DM Sans", Arial, sans-serif; }
 .ew-container { width: min(1160px, calc(100% - 48px)); margin: 0 auto; }
