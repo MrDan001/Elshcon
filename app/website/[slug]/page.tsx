@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { MailtoForm } from "@/components/website/SiteExperience";
-import { FAQ_ITEMS, SERVICE_LINKS, SITE_PAGES, WEBSITE_IMAGES } from "@/lib/website-content";
+import { ADDITIONAL_CAPABILITIES, FAQ_ITEMS, SERVICE_LINKS, SITE_PAGES, WEBSITE_IMAGES } from "@/lib/website-content";
 
 type Params = { slug: string };
 
@@ -60,7 +60,16 @@ function ServicesPage() {
       </section>
       <section className="ew-section ew-section-soft">
         <div className="ew-container">
-          <div className="ew-feature-panel" data-reveal>
+          <div className="ew-section-heading" data-reveal>
+            <div><p className="ew-kicker">ADDITIONAL MARINE CAPABILITIES</p><h2>Further equipment and support solutions.</h2></div>
+            <p>Other services named in Elshcon's published portfolio. Confirm requirements and current availability with the company.</p>
+          </div>
+          <div className="ew-detail-grid">
+            {ADDITIONAL_CAPABILITIES.map((item) => (
+              <article className="ew-detail-card" key={item.title} data-reveal><h3>{item.title}</h3><p>{item.summary}</p></article>
+            ))}
+          </div>
+          <div className="ew-feature-panel" data-reveal style={{ marginTop: 44 }}>
             <div><p className="ew-kicker">PROJECT ENQUIRIES</p><h2>Have a defined scope or specification?</h2><p>Share the location, service category, schedule and technical requirements. Elshcon can advise on the appropriate next step and any supporting information required.</p></div>
             <Link href="/website/contact" className="ew-button ew-button-primary">Discuss your requirement <span aria-hidden="true">→</span></Link>
           </div>
