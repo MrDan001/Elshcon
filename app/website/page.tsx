@@ -48,7 +48,7 @@ export default function WebsiteHome() {
                 <div className="ew-service-body">
                   <h3>{service.title}</h3>
                   <p>{service.summary}</p>
-                  <span className="ew-text-link">Explore service <b aria-hidden="true">↗</b></span>
+                  <span className="ew-text-link">View service details </span>
                 </div>
               </Link>
             ))}
@@ -66,7 +66,7 @@ export default function WebsiteHome() {
           <h2>Experience built across energy and maritime operations.</h2>
           <p>Founded in 1990, Elshcon Nigeria Limited describes itself as an integrated maritime logistics and fabrication/construction company serving the energy and non-oil sectors.</p>
           <p>Its published service portfolio includes marine solutions, vessel and barge chartering, supply base services, fabrication, pipeline facilities and related industrial support.</p>
-          <Link href="/website/about" className="ew-button ew-button-dark">Discover Elshcon <span aria-hidden="true">→</span></Link>
+          <Link href="/website/about" className="ew-button ew-button-dark">Discover Elshcon </Link>
         </div>
       </section>
 
@@ -74,7 +74,7 @@ export default function WebsiteHome() {
         <div className="ew-container">
           <div className="ew-section-heading" data-reveal>
             <div><p className="ew-kicker">SERVICE DIRECTORY</p><h2>Explore the wider service portfolio.</h2></div>
-            <Link href="/website/services" className="ew-text-link">View all services <b aria-hidden="true">↗</b></Link>
+            <Link href="/website/services" className="ew-text-link">Browse all services <b aria-hidden="true">↗</b></Link>
           </div>
           <div className="ew-mini-grid">
             {SERVICE_LINKS.slice(3).map((service) => (
