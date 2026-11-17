@@ -11,6 +11,13 @@
 
 export const TBC_LABEL = "to be confirmed by Elshcon";
 
+/**
+ * Address of the main Elshcon website that the "Visit website" button opens.
+ * Set NEXT_PUBLIC_MAIN_SITE_URL in Vercel (Settings > Environment Variables)
+ * and redeploy. Leave empty until the real site is ready.
+ */
+export const MAIN_SITE_URL = process.env.NEXT_PUBLIC_MAIN_SITE_URL ?? "";
+
 export const SITE = {
   conceptName: "Elshcon website concept",
   companyName: "Elshcon Nigeria Limited",

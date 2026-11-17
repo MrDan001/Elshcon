@@ -4,6 +4,7 @@ import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { useState } from "react";
 import { NAV } from "@/lib/content";
+import VisitWebsiteButton from "./VisitWebsiteButton";
 
 export default function Header() {
   const [open, setOpen] = useState(false);
@@ -54,6 +55,8 @@ export default function Header() {
           </ul>
         </nav>
 
+        <VisitWebsiteButton className="hidden !min-h-[40px] !px-4 !py-2 !text-sm lg:inline-flex" />
+
         {/* Mobile menu button */}
         <button
           type="button"
@@ -90,6 +93,9 @@ export default function Header() {
           className="border-t border-sand-200 bg-white lg:hidden"
         >
           <ul className="container-page py-2">
+            <li className="pb-2">
+              <VisitWebsiteButton className="w-full" />
+            </li>
             {NAV.map((item) => (
               <li key={item.href}>
                 <Link
