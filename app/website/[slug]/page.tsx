@@ -237,7 +237,7 @@ function ProfilePage() {
         <div className="ew-download-card" data-reveal>
           <div className="ew-download-icon">PDF</div>
           <div><h3>Elshcon Company Profile</h3><p>Three-page public-information edition · PDF · Suitable for an introductory overview</p></div>
-          <a className="ew-button ew-button-primary" href="/Elshcon-Company-Profile.pdf" download>Download profile <span aria-hidden="true">↓</span></a>
+          <a className="ew-button ew-button-primary" href="/website/company-profile/download">Download profile <span aria-hidden="true">↓</span></a>
         </div>
       </div>
     </section>
