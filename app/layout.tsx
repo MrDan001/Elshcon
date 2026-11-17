@@ -1,9 +1,6 @@
 import type { Metadata, Viewport } from "next";
 import "./globals.css";
-import ConceptBanner from "@/components/ConceptBanner";
-import Header from "@/components/Header";
-import Footer from "@/components/Footer";
-import MobileBar from "@/components/MobileBar";
+import AppChrome from "@/components/AppChrome";
 
 export const metadata: Metadata = {
   title: {
@@ -11,7 +8,7 @@ export const metadata: Metadata = {
     template: "%s | Elshcon concept",
   },
   description:
-    "Concept for discussion. Not the live Elshcon website. Shows a content-first improvement approach.",
+    "A website review and improvement concept for Elshcon Nigeria Limited.",
   robots: { index: false, follow: false },
 };
 
@@ -29,11 +26,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className="font-sans antialiased">
-        <ConceptBanner />
-        <Header />
-        <main>{children}</main>
-        <Footer />
-        <MobileBar />
+        <AppChrome>{children}</AppChrome>
       </body>
     </html>
   );
