@@ -155,7 +155,7 @@ export function SiteHeader() {
           <Link key={item.href} href={item.href} onClick={() => setOpen(false)}>{item.label}</Link>
         ))}
         <Link href="/website/contact" className="ew-mobile-cta" onClick={() => setOpen(false)}>Make an enquiry</Link>
-        <Link href="/" className="ew-mobile-demo" onClick={() => setOpen(false)}>← Back to audit demo</Link>
+        <Link href="/" className="ew-mobile-demo" onClick={() => setOpen(false)}>Back to demo</Link>
       </nav>
     </header>
   );
