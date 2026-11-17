@@ -95,7 +95,7 @@ function AboutPage() {
             <h2>One integrated approach to marine and industrial support.</h2>
             <p>Founded in 1990, Elshcon Nigeria Limited describes itself as an integrated maritime logistics and fabrication/construction company serving the energy and non-oil sectors.</p>
             <p>The company's published profile brings together marine solutions, supply base services and steel fabrication/construction, with a focus on safe and efficient support for energy and marine operations.</p>
-            <Link href="/website/services" className="ew-button ew-button-dark">Explore the service portfolio <span aria-hidden="true">→</span></Link>
+            <Link href="/website/services" className="ew-button ew-button-dark">Browse the service portfolio </Link>
           </div>
           <div className="ew-intro-image" data-reveal><img src={WEBSITE_IMAGES.workshop} alt="Elshcon fabrication and maintenance operations" /></div>
         </div>
@@ -118,7 +118,7 @@ function AboutPage() {
           </div>
         </div>
       </section>
-      <section className="ew-cta-band"><div className="ew-container ew-cta-content"><div><p className="ew-kicker ew-light-kicker">LET'S WORK TOGETHER</p><h2>Discuss your next operational requirement.</h2></div><Link href="/website/contact" className="ew-button ew-button-primary">Contact Elshcon <span aria-hidden="true">→</span></Link></div></section>
+      <section className="ew-cta-band"><div className="ew-container ew-cta-content"><div><p className="ew-kicker ew-light-kicker">LET'S WORK TOGETHER</p><h2>Discuss your next operational requirement.</h2></div><Link href="/website/contact" className="ew-button ew-button-primary">Contact Elshcon </Link></div></section>
     </>
   );
 }
@@ -162,7 +162,7 @@ function ServicePage({ page }: { page: (typeof SITE_PAGES)[string] }) {
           <div className="ew-note">For current fleet schedules, equipment specifications, certificate copies, project references and service availability, contact Elshcon directly. Published information may not reflect live operational status.</div>
         </div>
       </section>
-      <section className="ew-cta-band"><div className="ew-container ew-cta-content"><div><p className="ew-kicker ew-light-kicker">SERVICE ENQUIRY</p><h2>Have a scope you would like to discuss?</h2><p>Send the details and the team can advise on the right next step.</p></div><Link href="/website/contact" className="ew-button ew-button-primary">Make an enquiry <span aria-hidden="true">→</span></Link></div></section>
+      <section className="ew-cta-band"><div className="ew-container ew-cta-content"><div><p className="ew-kicker ew-light-kicker">SERVICE ENQUIRY</p><h2>Have a scope you would like to discuss?</h2><p>Send the details and the team can advise on the right next step.</p></div><Link href="/website/contact" className="ew-button ew-button-primary">Send an enquiry </Link></div></section>
     </>
   );
 }
@@ -197,8 +197,8 @@ function ContactPage() {
           <h2 style={{ color: "var(--ew-navy)", fontSize: 29, fontWeight: 800, lineHeight: 1.15, margin: "0 0 22px" }}>Connect with Elshcon.</h2>
           <div className="ew-location-stack">
             <article className="ew-location-card"><h3>Corporate office</h3><p>Deborah Lawson House<br />F6, Abacha Road, G.R.A. Phase III<br />Port Harcourt, Rivers State, Nigeria</p><a href="https://www.google.com/maps/search/?api=1&query=Deborah+Lawson+House+F6+Abacha+Road+Port+Harcourt+Nigeria" target="_blank" rel="noreferrer">Open directions</a></article>
-            <article className="ew-location-card"><h3>Lagos office</h3><p>#33 Kofo Abayomi Street<br />Victoria Island, Lagos State, Nigeria</p><a href="https://www.google.com/maps/search/?api=1&query=33+Kofo+Abayomi+Street+Victoria+Island+Lagos+Nigeria" target="_blank" rel="noreferrer">View on map ↗</a></article>
-            <article className="ew-location-card"><h3>Fabrication / supply bases</h3><p>#11 Trans-Woji Road and #7 Elshcon Road, off #3 Trans-Woji Road<br />Trans-Amadi Industrial Layout<br />Port Harcourt, Rivers State, Nigeria</p><a href="https://www.google.com/maps/search/?api=1&query=Trans-Amadi+Industrial+Layout+Port+Harcourt+Nigeria" target="_blank" rel="noreferrer">View on map ↗</a></article>
+            <article className="ew-location-card"><h3>Lagos office</h3><p>#33 Kofo Abayomi Street<br />Victoria Island, Lagos State, Nigeria</p><a href="https://www.google.com/maps/search/?api=1&query=33+Kofo+Abayomi+Street+Victoria+Island+Lagos+Nigeria" target="_blank" rel="noreferrer">Open directions</a></article>
+            <article className="ew-location-card"><h3>Fabrication / supply bases</h3><p>#11 Trans-Woji Road and #7 Elshcon Road, off #3 Trans-Woji Road<br />Trans-Amadi Industrial Layout<br />Port Harcourt, Rivers State, Nigeria</p><a href="https://www.google.com/maps/search/?api=1&query=Trans-Amadi+Industrial+Layout+Port+Harcourt+Nigeria" target="_blank" rel="noreferrer">Open directions</a></article>
           </div>
           <div className="ew-contact-direct"><h3>Direct contact</h3><a href="mailto:info@elshcon.com">info@elshcon.com</a><a href="tel:+2348033107554">+234 803 310 7554</a><a href="tel:+2348106397930">+234 810 639 7930</a><a href="tel:+2348055104192">+234 805 510 4192</a></div>
         </aside>
@@ -226,7 +226,7 @@ function CareersPage() {
     <section className="ew-section">
       <div className="ew-container">
         <div className="ew-intro-row">
-          <div data-reveal><p className="ew-kicker">CAREERS AT ELSHCON</p><h2>Bring your skills to marine and industrial operations.</h2><p>Elshcon's public website does not list current vacancies or a formal recruitment calendar. For accurate information about open roles, required qualifications and application steps, contact the company directly before sending personal documents.</p><a className="ew-button ew-button-primary" href="mailto:info@elshcon.com?subject=Career%20enquiry%20-%20Elshcon">Make a career enquiry <span aria-hidden="true">→</span></a></div>
+          <div data-reveal><p className="ew-kicker">CAREERS AT ELSHCON</p><h2>Bring your skills to marine and industrial operations.</h2><p>Elshcon's public website does not list current vacancies or a formal recruitment calendar. For accurate information about open roles, required qualifications and application steps, contact the company directly before sending personal documents.</p><a className="ew-button ew-button-primary" href="mailto:info@elshcon.com?subject=Career%20enquiry%20-%20Elshcon">Make a career enquiry </a></div>
           <div className="ew-intro-image" data-reveal><img src={WEBSITE_IMAGES.workshop} alt="Industrial work environment shown on Elshcon's public website" /></div>
         </div>
         <div className="ew-note">Please use the official company contact details shown on this website. Do not pay money to anyone claiming to offer a job or interview on Elshcon's behalf.</div>
@@ -246,7 +246,7 @@ function ProfilePage() {
         <div className="ew-download-card" data-reveal>
           <div className="ew-download-icon">PDF</div>
           <div><h3>Elshcon Company Profile</h3><p>Three-page public-information edition · PDF · Suitable for an introductory overview</p></div>
-          <a className="ew-button ew-button-primary" href="/download-company-profile">Download profile <span aria-hidden="true">↓</span></a>
+          <a className="ew-button ew-button-primary" href="/download-company-profile">Download profile </a>
         </div>
       </div>
     </section>
