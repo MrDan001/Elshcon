@@ -12,6 +12,7 @@ export const metadata: Metadata = {
   description:
     "Elshcon Nigeria Limited is an integrated maritime logistics and fabrication/construction company. Explore marine logistics, jetty and supply base, pipeline and fabrication services.",
   robots: { index: true, follow: true },
+  icons: { icon: "/elshcon-mark.svg" },
   openGraph: {
     type: "website",
     siteName: "Elshcon Nigeria Limited",
