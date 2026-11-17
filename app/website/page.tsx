@@ -64,8 +64,8 @@ export default function WebsiteHome() {
         <div className="ew-split-copy" data-reveal>
           <p className="ew-kicker">ABOUT ELSHCON</p>
           <h2>Experience built across energy and maritime operations.</h2>
-          <p>Founded in 1990, Elshcon Nigeria Limited describes itself as an integrated maritime logistics and fabrication/construction company serving the energy and non-oil sectors.</p>
-          <p>Its published service portfolio includes marine solutions, vessel and barge chartering, supply base services, fabrication, pipeline facilities and related industrial support.</p>
+          <p>Founded in 1990, Elshcon Nigeria Limited delivers maritime logistics, marine support and fabrication and construction services to the energy and industrial sectors.</p>
+          <p>Its work spans marine solutions, vessel and barge chartering, supply base operations, fabrication, pipeline facilities and related industrial support.</p>
           <Link href="/website/about" className="ew-button ew-button-dark">Discover Elshcon </Link>
         </div>
       </section>
@@ -91,7 +91,7 @@ export default function WebsiteHome() {
         <div className="ew-container">
           <div className="ew-section-heading" data-reveal>
             <div><p className="ew-kicker">OUR COMMITMENTS</p><h2>Standards that shape the way we work.</h2></div>
-            <p>Elshcon's published commitments put safety, quality, innovation and local participation at the centre of its approach.</p>
+            <p>Safety, quality, innovation and local participation shape the way Elshcon works.</p>
           </div>
           <div className="ew-commit-grid">
             {commitments.map(([title, copy], index) => (
