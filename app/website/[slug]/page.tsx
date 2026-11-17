@@ -46,13 +46,13 @@ function ServicesPage() {
         <div className="ew-container">
           <div className="ew-section-heading" data-reveal>
             <div><p className="ew-kicker">SERVICE PORTFOLIO</p><h2>Connected services. Clear points of contact.</h2></div>
-            <p>Explore each service area to understand the published scope. Project-specific capability, availability and contracting entity are confirmed at enquiry stage.</p>
+            <p>Explore the service areas below, then speak with the team about your project, location and operational requirements.</p>
           </div>
           <div className="ew-services-list">
             {SERVICE_LINKS.map((service, index) => (
               <Link href={service.href} className="ew-service-card" key={service.href} data-reveal>
                 <div className="ew-service-image"><img src={service.image} alt={service.alt} loading="lazy" /><span>0{index + 1}</span></div>
-                <div className="ew-service-body"><h3>{service.title}</h3><p>{service.summary}</p><span className="ew-text-link">View service <b aria-hidden="true">↗</b></span></div>
+                <div className="ew-service-body"><h3>{service.title}</h3><p>{service.summary}</p><span className="ew-text-link">View service </span></div>
               </Link>
             ))}
           </div>
@@ -71,7 +71,7 @@ function ServicesPage() {
           </div>
           <div className="ew-feature-panel" data-reveal style={{ marginTop: 44 }}>
             <div><p className="ew-kicker">PROJECT ENQUIRIES</p><h2>Have a defined scope or specification?</h2><p>Share the location, service category, schedule and technical requirements. Elshcon can advise on the appropriate next step and any supporting information required.</p></div>
-            <Link href="/website/contact" className="ew-button ew-button-primary">Discuss your requirement <span aria-hidden="true">→</span></Link>
+            <Link href="/website/contact" className="ew-button ew-button-primary">Discuss your requirement </Link>
           </div>
         </div>
       </section>
@@ -95,7 +95,7 @@ function AboutPage() {
             <h2>One integrated approach to marine and industrial support.</h2>
             <p>Founded in 1990, Elshcon Nigeria Limited describes itself as an integrated maritime logistics and fabrication/construction company serving the energy and non-oil sectors.</p>
             <p>The company's published profile brings together marine solutions, supply base services and steel fabrication/construction, with a focus on safe and efficient support for energy and marine operations.</p>
-            <Link href="/website/services" className="ew-button ew-button-dark">Explore the service portfolio <span aria-hidden="true">→</span></Link>
+            <Link href="/website/services" className="ew-button ew-button-dark">Browse the service portfolio </Link>
           </div>
           <div className="ew-intro-image" data-reveal><img src={WEBSITE_IMAGES.workshop} alt="Elshcon fabrication and maintenance operations" /></div>
         </div>
@@ -118,7 +118,7 @@ function AboutPage() {
           </div>
         </div>
       </section>
-      <section className="ew-cta-band"><div className="ew-container ew-cta-content"><div><p className="ew-kicker ew-light-kicker">LET'S WORK TOGETHER</p><h2>Discuss your next operational requirement.</h2></div><Link href="/website/contact" className="ew-button ew-button-primary">Contact Elshcon <span aria-hidden="true">→</span></Link></div></section>
+      <section className="ew-cta-band"><div className="ew-container ew-cta-content"><div><p className="ew-kicker ew-light-kicker">LET'S WORK TOGETHER</p><h2>Discuss your next operational requirement.</h2></div><Link href="/website/contact" className="ew-button ew-button-primary">Contact Elshcon </Link></div></section>
     </>
   );
 }
@@ -158,11 +158,11 @@ function ServicePage({ page }: { page: (typeof SITE_PAGES)[string] }) {
           <div className="ew-gallery-strip" data-reveal>
             {extraImages.map((src, index) => <img key={src + index} src={src} alt="Elshcon operation or facility image from the company's public website" loading="lazy" />)}
           </div>
-          <p className="ew-form-note">Images shown are drawn from Elshcon's publicly available website gallery.</p>
-          <div className="ew-note">For current fleet schedules, equipment specifications, certificate copies, project references and service availability, contact Elshcon directly. Published information may not reflect live operational status.</div>
+          <p className="ew-form-note">A selection of images from Elshcon's marine and industrial operations.</p>
+          <div className="ew-note">For current fleet schedules, equipment specifications, certificates, project references and service availability, contact the team directly.</div>
         </div>
       </section>
-      <section className="ew-cta-band"><div className="ew-container ew-cta-content"><div><p className="ew-kicker ew-light-kicker">SERVICE ENQUIRY</p><h2>Have a scope you would like to discuss?</h2><p>Send the details and the team can advise on the right next step.</p></div><Link href="/website/contact" className="ew-button ew-button-primary">Make an enquiry <span aria-hidden="true">→</span></Link></div></section>
+      <section className="ew-cta-band"><div className="ew-container ew-cta-content"><div><p className="ew-kicker ew-light-kicker">SERVICE ENQUIRY</p><h2>Have a scope you would like to discuss?</h2><p>Send the details and the team can advise on the right next step.</p></div><Link href="/website/contact" className="ew-button ew-button-primary">Send an enquiry </Link></div></section>
     </>
   );
 }
@@ -172,7 +172,7 @@ function QualityPage({ page }: { page: (typeof SITE_PAGES)[string] }) {
     <>
       <section className="ew-section">
         <div className="ew-container ew-intro-row">
-          <div data-reveal><p className="ew-kicker">QUALITY AND HSE</p><h2>Safety and quality are part of the operating approach.</h2><p>{page.intro}</p><p>Elshcon's published Quality and HSE policy statements refer to quality management, legal requirements, occupational health and safety, environmental protection and risk control.</p></div>
+          <div data-reveal><p className="ew-kicker">QUALITY AND HSE</p><h2>Safety and quality are part of the operating approach.</h2><p>{page.intro}</p><p>Elshcon's Quality and HSE approach covers quality management, legal compliance, occupational health and safety, environmental protection and operational risk control.</p></div>
           <div className="ew-intro-image" data-reveal><img src={page.image} alt={page.imageAlt} /></div>
         </div>
         <div className="ew-container" style={{ marginTop: 46 }}>
@@ -196,9 +196,9 @@ function ContactPage() {
           <p className="ew-kicker">OUR LOCATIONS</p>
           <h2 style={{ color: "var(--ew-navy)", fontSize: 29, fontWeight: 800, lineHeight: 1.15, margin: "0 0 22px" }}>Connect with Elshcon.</h2>
           <div className="ew-location-stack">
-            <article className="ew-location-card"><h3>Corporate office</h3><p>Deborah Lawson House<br />F6, Abacha Road, G.R.A. Phase III<br />Port Harcourt, Rivers State, Nigeria</p><a href="https://www.google.com/maps/search/?api=1&query=Deborah+Lawson+House+F6+Abacha+Road+Port+Harcourt+Nigeria" target="_blank" rel="noreferrer">View on map ↗</a></article>
-            <article className="ew-location-card"><h3>Lagos office</h3><p>#33 Kofo Abayomi Street<br />Victoria Island, Lagos State, Nigeria</p><a href="https://www.google.com/maps/search/?api=1&query=33+Kofo+Abayomi+Street+Victoria+Island+Lagos+Nigeria" target="_blank" rel="noreferrer">View on map ↗</a></article>
-            <article className="ew-location-card"><h3>Fabrication / supply bases</h3><p>#11 Trans-Woji Road and #7 Elshcon Road, off #3 Trans-Woji Road<br />Trans-Amadi Industrial Layout<br />Port Harcourt, Rivers State, Nigeria</p><a href="https://www.google.com/maps/search/?api=1&query=Trans-Amadi+Industrial+Layout+Port+Harcourt+Nigeria" target="_blank" rel="noreferrer">View on map ↗</a></article>
+            <article className="ew-location-card"><h3>Corporate office</h3><p>Deborah Lawson House<br />F6, Abacha Road, G.R.A. Phase III<br />Port Harcourt, Rivers State, Nigeria</p><a href="https://www.google.com/maps/search/?api=1&query=Deborah+Lawson+House+F6+Abacha+Road+Port+Harcourt+Nigeria" target="_blank" rel="noreferrer">Open directions</a></article>
+            <article className="ew-location-card"><h3>Lagos office</h3><p>#33 Kofo Abayomi Street<br />Victoria Island, Lagos State, Nigeria</p><a href="https://www.google.com/maps/search/?api=1&query=33+Kofo+Abayomi+Street+Victoria+Island+Lagos+Nigeria" target="_blank" rel="noreferrer">Open directions</a></article>
+            <article className="ew-location-card"><h3>Fabrication / supply bases</h3><p>#11 Trans-Woji Road and #7 Elshcon Road, off #3 Trans-Woji Road<br />Trans-Amadi Industrial Layout<br />Port Harcourt, Rivers State, Nigeria</p><a href="https://www.google.com/maps/search/?api=1&query=Trans-Amadi+Industrial+Layout+Port+Harcourt+Nigeria" target="_blank" rel="noreferrer">Open directions</a></article>
           </div>
           <div className="ew-contact-direct"><h3>Direct contact</h3><a href="mailto:info@elshcon.com">info@elshcon.com</a><a href="tel:+2348033107554">+234 803 310 7554</a><a href="tel:+2348106397930">+234 810 639 7930</a><a href="tel:+2348055104192">+234 805 510 4192</a></div>
         </aside>
@@ -213,7 +213,7 @@ function VendorPage() {
       <div className="ew-container">
         <div className="ew-feature-panel" data-reveal>
           <div><p className="ew-kicker">SUPPLIER AND PARTNER ENQUIRIES</p><h2>Request the current vendor registration requirements.</h2><p>Elshcon's public website does not publish a complete vendor registration pack or list of mandatory documents. Use this form to introduce your organisation and request the current onboarding and prequalification process. The team can confirm the appropriate documents and next steps.</p></div>
-          <span className="ew-download-icon" aria-hidden="true">↗</span>
+          <span className="ew-vendor-note">Supplier enquiries</span>
         </div>
         <div style={{ maxWidth: 780, marginTop: 38 }}><MailtoForm mode="vendor" heading="Introduce your company" buttonLabel="Prepare vendor enquiry" /></div>
       </div>
@@ -226,7 +226,7 @@ function CareersPage() {
     <section className="ew-section">
       <div className="ew-container">
         <div className="ew-intro-row">
-          <div data-reveal><p className="ew-kicker">CAREERS AT ELSHCON</p><h2>Bring your skills to marine and industrial operations.</h2><p>Elshcon's public website does not list current vacancies or a formal recruitment calendar. For accurate information about open roles, required qualifications and application steps, contact the company directly before sending personal documents.</p><a className="ew-button ew-button-primary" href="mailto:info@elshcon.com?subject=Career%20enquiry%20-%20Elshcon">Make a career enquiry <span aria-hidden="true">→</span></a></div>
+          <div data-reveal><p className="ew-kicker">CAREERS AT ELSHCON</p><h2>Bring your skills to marine and industrial operations.</h2><p>Elshcon's public website does not list current vacancies or a formal recruitment calendar. For accurate information about open roles, required qualifications and application steps, contact the company directly before sending personal documents.</p><a className="ew-button ew-button-primary" href="mailto:info@elshcon.com?subject=Career%20enquiry%20-%20Elshcon">Make a career enquiry </a></div>
           <div className="ew-intro-image" data-reveal><img src={WEBSITE_IMAGES.workshop} alt="Industrial work environment shown on Elshcon's public website" /></div>
         </div>
         <div className="ew-note">Please use the official company contact details shown on this website. Do not pay money to anyone claiming to offer a job or interview on Elshcon's behalf.</div>
@@ -246,7 +246,7 @@ function ProfilePage() {
         <div className="ew-download-card" data-reveal>
           <div className="ew-download-icon">PDF</div>
           <div><h3>Elshcon Company Profile</h3><p>Three-page public-information edition · PDF · Suitable for an introductory overview</p></div>
-          <a className="ew-button ew-button-primary" href="/download-company-profile">Download profile <span aria-hidden="true">↓</span></a>
+          <a className="ew-button ew-button-primary" href="/download-company-profile">Download profile </a>
         </div>
       </div>
     </section>

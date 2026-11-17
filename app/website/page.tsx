@@ -48,7 +48,7 @@ export default function WebsiteHome() {
                 <div className="ew-service-body">
                   <h3>{service.title}</h3>
                   <p>{service.summary}</p>
-                  <span className="ew-text-link">Explore service <b aria-hidden="true">↗</b></span>
+                  <span className="ew-text-link">View service details </span>
                 </div>
               </Link>
             ))}
@@ -64,9 +64,9 @@ export default function WebsiteHome() {
         <div className="ew-split-copy" data-reveal>
           <p className="ew-kicker">ABOUT ELSHCON</p>
           <h2>Experience built across energy and maritime operations.</h2>
-          <p>Founded in 1990, Elshcon Nigeria Limited describes itself as an integrated maritime logistics and fabrication/construction company serving the energy and non-oil sectors.</p>
-          <p>Its published service portfolio includes marine solutions, vessel and barge chartering, supply base services, fabrication, pipeline facilities and related industrial support.</p>
-          <Link href="/website/about" className="ew-button ew-button-dark">Discover Elshcon <span aria-hidden="true">→</span></Link>
+          <p>Founded in 1990, Elshcon Nigeria Limited delivers maritime logistics, marine support and fabrication and construction services to the energy and industrial sectors.</p>
+          <p>Its work spans marine solutions, vessel and barge chartering, supply base operations, fabrication, pipeline facilities and related industrial support.</p>
+          <Link href="/website/about" className="ew-button ew-button-dark">Discover Elshcon </Link>
         </div>
       </section>
 
@@ -74,13 +74,13 @@ export default function WebsiteHome() {
         <div className="ew-container">
           <div className="ew-section-heading" data-reveal>
             <div><p className="ew-kicker">SERVICE DIRECTORY</p><h2>Explore the wider service portfolio.</h2></div>
-            <Link href="/website/services" className="ew-text-link">View all services <b aria-hidden="true">↗</b></Link>
+            <Link href="/website/services" className="ew-text-link">Browse all services </Link>
           </div>
           <div className="ew-mini-grid">
             {SERVICE_LINKS.slice(3).map((service) => (
               <Link href={service.href} className="ew-mini-card" key={service.href} data-reveal>
                 <img src={service.image} alt={service.alt} loading="lazy" />
-                <div><h3>{service.title}</h3><p>{service.summary}</p><span aria-hidden="true">↗</span></div>
+                <div><h3>{service.title}</h3><p>{service.summary}</p></div>
               </Link>
             ))}
           </div>
@@ -91,7 +91,7 @@ export default function WebsiteHome() {
         <div className="ew-container">
           <div className="ew-section-heading" data-reveal>
             <div><p className="ew-kicker">OUR COMMITMENTS</p><h2>Standards that shape the way we work.</h2></div>
-            <p>Elshcon's published commitments put safety, quality, innovation and local participation at the centre of its approach.</p>
+            <p>Safety, quality, innovation and local participation shape the way Elshcon works.</p>
           </div>
           <div className="ew-commit-grid">
             {commitments.map(([title, copy], index) => (
@@ -107,7 +107,7 @@ export default function WebsiteHome() {
         <div className="ew-container ew-cta-content" data-reveal>
           <div><p className="ew-kicker ew-light-kicker">START A CONVERSATION</p><h2>Tell us what your operation needs.</h2><p>Contact Elshcon to discuss a service requirement, vendor enquiry or request for further company information.</p></div>
           <div className="ew-cta-actions">
-            <Link href="/website/contact" className="ew-button ew-button-primary">Make an enquiry <span aria-hidden="true">→</span></Link>
+            <Link href="/website/contact" className="ew-button ew-button-primary">Send an enquiry </Link>
             <Link href="/website/company-profile" className="ew-cta-secondary">Download company profile</Link>
           </div>
         </div>
