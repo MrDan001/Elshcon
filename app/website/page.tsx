@@ -74,13 +74,13 @@ export default function WebsiteHome() {
         <div className="ew-container">
           <div className="ew-section-heading" data-reveal>
             <div><p className="ew-kicker">SERVICE DIRECTORY</p><h2>Explore the wider service portfolio.</h2></div>
-            <Link href="/website/services" className="ew-text-link">Browse all services <b aria-hidden="true">↗</b></Link>
+            <Link href="/website/services" className="ew-text-link">Browse all services </Link>
           </div>
           <div className="ew-mini-grid">
             {SERVICE_LINKS.slice(3).map((service) => (
               <Link href={service.href} className="ew-mini-card" key={service.href} data-reveal>
                 <img src={service.image} alt={service.alt} loading="lazy" />
-                <div><h3>{service.title}</h3><p>{service.summary}</p><span aria-hidden="true">↗</span></div>
+                <div><h3>{service.title}</h3><p>{service.summary}</p></div>
               </Link>
             ))}
           </div>
@@ -107,7 +107,7 @@ export default function WebsiteHome() {
         <div className="ew-container ew-cta-content" data-reveal>
           <div><p className="ew-kicker ew-light-kicker">START A CONVERSATION</p><h2>Tell us what your operation needs.</h2><p>Contact Elshcon to discuss a service requirement, vendor enquiry or request for further company information.</p></div>
           <div className="ew-cta-actions">
-            <Link href="/website/contact" className="ew-button ew-button-primary">Make an enquiry <span aria-hidden="true">→</span></Link>
+            <Link href="/website/contact" className="ew-button ew-button-primary">Send an enquiry </Link>
             <Link href="/website/company-profile" className="ew-cta-secondary">Download company profile</Link>
           </div>
         </div>
