@@ -85,7 +85,7 @@ export const SITE_PAGES: Record<string, SitePage> = {
   about: {
     title: "Built on experience. Focused on delivery.",
     eyebrow: "About Elshcon",
-    intro: "Founded in 1990, Elshcon Nigeria Limited is an integrated maritime logistics and fabrication/construction company serving the energy and non-oil sectors.",
+    intro: "Founded in 1990, Elshcon Nigeria Limited delivers maritime logistics, marine support and fabrication and construction services to the energy and industrial sectors.",
     description: "Learn about Elshcon Nigeria Limited, its history, mission, vision and operating commitments.",
     image: image.workshop,
     imageAlt: "Fabrication and maintenance work photographed for Elshcon's public website",
@@ -104,7 +104,7 @@ export const SITE_PAGES: Record<string, SitePage> = {
   services: {
     title: "Integrated services for demanding operations",
     eyebrow: "Our services",
-    intro: "Elshcon brings together marine logistics, supply base support and fabrication/construction capabilities for energy and industrial operations.",
+    intro: "Elshcon combines marine logistics, shore-base support and fabrication and construction services for energy and industrial operations.",
     description: "Explore Elshcon's marine logistics, jetty and supply base, fabrication, pipeline and HSE capabilities.",
     image: image.jetty,
     imageAlt: "Marine jetty and supply base facility shown on Elshcon's public website",
@@ -127,7 +127,7 @@ export const SITE_PAGES: Record<string, SitePage> = {
     sections: [
       {
         title: "Chartering shaped around the operation",
-        body: "Elshcon describes its marine offering as specialised logistics, maritime and support services, with vessel and barge chartering tailored to client requirements. Vessel specifications, availability, ownership and charter terms should be confirmed for each request.",
+        body: "Elshcon's marine offering includes vessel and barge chartering, logistics and operational support. Vessel specifications, availability, ownership and charter terms are confirmed against each project requirement.",
       },
     ],
   },
@@ -148,7 +148,7 @@ export const SITE_PAGES: Record<string, SitePage> = {
     sections: [
       {
         title: "Facilities that support the work",
-        body: "Elshcon's public website describes two marine jetties/terminals at its Trans-Amadi Industrial Layout location. The published description includes fabrication workshops, warehouses, offices and outdoor stacking areas. Facility measurements and current operating arrangements should be reconfirmed with the company before they are used in a proposal.",
+        body: "The Trans-Amadi base includes two marine jetties/terminals, fabrication workshops, warehouses, offices and outdoor stacking areas. Contact Elshcon for current facility details and operating arrangements.",
       },
       {
         title: "Location",
@@ -174,7 +174,7 @@ export const SITE_PAGES: Record<string, SitePage> = {
     sections: [
       {
         title: "Practical field scope",
-        body: "Elshcon's published pipeline service page identifies activities including welding-joint fit-up, flowline alignment, flowstation-riser work, shrink-sleeve installation and pipeline maintenance. Project-specific scope, methods, resources and approvals should be confirmed during technical enquiry.",
+        body: "Pipeline work can include welding-joint fit-up, flowline alignment, flowstation-riser work, shrink-sleeve installation and maintenance. The project team confirms methods, resources and approvals against the job scope.",
       },
     ],
   },
@@ -195,7 +195,7 @@ export const SITE_PAGES: Record<string, SitePage> = {
     sections: [
       {
         title: "Scope-led delivery",
-        body: "Elshcon describes a flexible approach to fabrication and construction, with options shaped to specific client needs. Detailed engineering, workshop capacity, project references and delivery schedules should be confirmed for each proposed scope.",
+        body: "Fabrication and construction work is planned around the client's drawings, specifications and site requirements. Discuss engineering details, workshop capacity, relevant experience and delivery schedules with the team.",
       },
     ],
   },
@@ -219,7 +219,7 @@ export const SITE_PAGES: Record<string, SitePage> = {
     sections: [
       {
         title: "Confirm the contracting entity",
-        body: "The published Elshcon Offshore page lists these service areas. Before a tender or contract is issued, confirm the correct legal entity, current service availability, equipment schedule and commercial contact for the requested work.",
+        body: "For tenders and contracts, confirm the appropriate legal entity, current service availability, equipment schedule and commercial contact for the work.",
       },
     ],
   },
@@ -241,11 +241,11 @@ export const SITE_PAGES: Record<string, SitePage> = {
     sections: [
       {
         title: "Certification information",
-        body: "Elshcon's public website describes the company as ISO 9001:2015 Certified. For formal prequalification, request the current certificate, scope, issuing body and validity dates directly from the company.",
+        body: "Elshcon identifies ISO 9001:2015 certification among its credentials. For formal prequalification, request the current certificate, scope, issuing body and validity dates.",
       },
       {
         title: "Policy access",
-        body: "Quality and HSE policy statements are published on Elshcon's website. The latest approved controlled copies should be obtained from the company before being attached to a tender or contract submission.",
+        body: "For tenders and contract submissions, request the latest approved Quality and HSE policy documents from Elshcon.",
       },
     ],
   },
@@ -261,7 +261,7 @@ export const SITE_PAGES: Record<string, SitePage> = {
   "vendor-registration": {
     title: "Vendor registration enquiries",
     eyebrow: "Work with Elshcon",
-    intro: "For vendor onboarding and prequalification, contact Elshcon to request the current registration process and documentation requirements.",
+    intro: "For vendor onboarding and prequalification, introduce your organisation and the services you provide. Elshcon will guide you through the current registration process and documentation requirements.",
     description: "Make a vendor registration enquiry with Elshcon Nigeria Limited.",
     image: image.warehouse,
     imageAlt: "Warehouse facility shown on Elshcon's public website",
@@ -270,7 +270,7 @@ export const SITE_PAGES: Record<string, SitePage> = {
   careers: {
     title: "Build your career with Elshcon",
     eyebrow: "Careers",
-    intro: "Interested in working in marine, fabrication, construction or operational support? Contact Elshcon for information about current opportunities and recruitment procedures.",
+    intro: "Interested in marine, fabrication, construction or operational support? Contact Elshcon for information about current vacancies, qualifications and the application process.",
     description: "Career enquiries for Elshcon Nigeria Limited.",
     image: image.workshop,
     imageAlt: "Industrial work environment shown on Elshcon's public website",
@@ -315,15 +315,15 @@ export const ADDITIONAL_CAPABILITIES = [
 export const FAQ_ITEMS = [
   {
     question: "When was Elshcon Nigeria Limited founded?",
-    answer: "Elshcon's public website states that the company was founded in 1990.",
+    answer: "Elshcon Nigeria Limited was founded in 1990.",
   },
   {
     question: "What are Elshcon's main service areas?",
-    answer: "Published service areas include marine logistics and vessel chartering, jetty and supply base services, steel fabrication and construction, pipeline and facilities work, lifting solutions, ship building and repairs, and related marine equipment solutions.",
+    answer: "Elshcon's services include marine logistics and vessel chartering, jetty and supply base operations, steel fabrication and construction, pipeline and facilities work, lifting solutions, shipbuilding and repairs, and marine equipment solutions.",
   },
   {
     question: "Where are Elshcon's offices and supply bases?",
-    answer: "The company lists its corporate office in Port Harcourt, a Lagos office on Kofo Abayomi Street in Victoria Island, and fabrication/supply bases in the Trans-Amadi Industrial Layout of Port Harcourt.",
+    answer: "Elshcon's corporate office is in Port Harcourt, with a Lagos office in Victoria Island and fabrication and supply bases in the Trans-Amadi Industrial Layout.",
   },
   {
     question: "Can I request a vessel or barge charter?",
@@ -331,7 +331,7 @@ export const FAQ_ITEMS = [
   },
   {
     question: "How do I register as a vendor?",
-    answer: "Contact info@elshcon.com and request the current vendor-registration or prequalification requirements. The latest registration pack and process should be supplied by Elshcon.",
+    answer: "Email info@elshcon.com to request the current vendor-registration and prequalification requirements.",
   },
   {
     question: "Can I request the company's certificates and project references?",
