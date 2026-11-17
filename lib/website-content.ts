@@ -296,6 +296,22 @@ export const SITE_PAGES: Record<string, SitePage> = {
   },
 };
 
+
+export const ADDITIONAL_CAPABILITIES = [
+  {
+    title: "Lifting solutions",
+    summary: "Cranes, forklifts and lifting support listed in Elshcon's public service portfolio.",
+  },
+  {
+    title: "Ship and boat building, repairs and dry docking",
+    summary: "Ship building, ship repairs and dry-docking solutions described on the company website.",
+  },
+  {
+    title: "Anchors, chains and deck equipment",
+    summary: "Anchors, chains, shackles, deck equipment and fendering solutions.",
+  },
+] as const;
+
 export const FAQ_ITEMS = [
   {
     question: "When was Elshcon Nigeria Limited founded?",
