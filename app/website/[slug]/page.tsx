@@ -52,7 +52,7 @@ function ServicesPage() {
             {SERVICE_LINKS.map((service, index) => (
               <Link href={service.href} className="ew-service-card" key={service.href} data-reveal>
                 <div className="ew-service-image"><img src={service.image} alt={service.alt} loading="lazy" /><span>0{index + 1}</span></div>
-                <div className="ew-service-body"><h3>{service.title}</h3><p>{service.summary}</p><span className="ew-text-link">View service <b aria-hidden="true">↗</b></span></div>
+                <div className="ew-service-body"><h3>{service.title}</h3><p>{service.summary}</p><span className="ew-text-link">View service </span></div>
               </Link>
             ))}
           </div>
@@ -71,7 +71,7 @@ function ServicesPage() {
           </div>
           <div className="ew-feature-panel" data-reveal style={{ marginTop: 44 }}>
             <div><p className="ew-kicker">PROJECT ENQUIRIES</p><h2>Have a defined scope or specification?</h2><p>Share the location, service category, schedule and technical requirements. Elshcon can advise on the appropriate next step and any supporting information required.</p></div>
-            <Link href="/website/contact" className="ew-button ew-button-primary">Discuss your requirement <span aria-hidden="true">→</span></Link>
+            <Link href="/website/contact" className="ew-button ew-button-primary">Discuss your requirement </Link>
           </div>
         </div>
       </section>
@@ -196,7 +196,7 @@ function ContactPage() {
           <p className="ew-kicker">OUR LOCATIONS</p>
           <h2 style={{ color: "var(--ew-navy)", fontSize: 29, fontWeight: 800, lineHeight: 1.15, margin: "0 0 22px" }}>Connect with Elshcon.</h2>
           <div className="ew-location-stack">
-            <article className="ew-location-card"><h3>Corporate office</h3><p>Deborah Lawson House<br />F6, Abacha Road, G.R.A. Phase III<br />Port Harcourt, Rivers State, Nigeria</p><a href="https://www.google.com/maps/search/?api=1&query=Deborah+Lawson+House+F6+Abacha+Road+Port+Harcourt+Nigeria" target="_blank" rel="noreferrer">View on map ↗</a></article>
+            <article className="ew-location-card"><h3>Corporate office</h3><p>Deborah Lawson House<br />F6, Abacha Road, G.R.A. Phase III<br />Port Harcourt, Rivers State, Nigeria</p><a href="https://www.google.com/maps/search/?api=1&query=Deborah+Lawson+House+F6+Abacha+Road+Port+Harcourt+Nigeria" target="_blank" rel="noreferrer">Open directions</a></article>
             <article className="ew-location-card"><h3>Lagos office</h3><p>#33 Kofo Abayomi Street<br />Victoria Island, Lagos State, Nigeria</p><a href="https://www.google.com/maps/search/?api=1&query=33+Kofo+Abayomi+Street+Victoria+Island+Lagos+Nigeria" target="_blank" rel="noreferrer">View on map ↗</a></article>
             <article className="ew-location-card"><h3>Fabrication / supply bases</h3><p>#11 Trans-Woji Road and #7 Elshcon Road, off #3 Trans-Woji Road<br />Trans-Amadi Industrial Layout<br />Port Harcourt, Rivers State, Nigeria</p><a href="https://www.google.com/maps/search/?api=1&query=Trans-Amadi+Industrial+Layout+Port+Harcourt+Nigeria" target="_blank" rel="noreferrer">View on map ↗</a></article>
           </div>
@@ -213,7 +213,7 @@ function VendorPage() {
       <div className="ew-container">
         <div className="ew-feature-panel" data-reveal>
           <div><p className="ew-kicker">SUPPLIER AND PARTNER ENQUIRIES</p><h2>Request the current vendor registration requirements.</h2><p>Elshcon's public website does not publish a complete vendor registration pack or list of mandatory documents. Use this form to introduce your organisation and request the current onboarding and prequalification process. The team can confirm the appropriate documents and next steps.</p></div>
-          <span className="ew-download-icon" aria-hidden="true">↗</span>
+          <span className="ew-vendor-note">Supplier enquiries</span>
         </div>
         <div style={{ maxWidth: 780, marginTop: 38 }}><MailtoForm mode="vendor" heading="Introduce your company" buttonLabel="Prepare vendor enquiry" /></div>
       </div>
