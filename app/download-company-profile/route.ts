@@ -97,7 +97,7 @@ function makePages() {
     "Elshcon's public service descriptions bring together marine operations,",
     "shore-base facilities and industrial construction and maintenance."
   ], muted);
-  const serviceCards = [
+  const serviceCards: [string, string[]][] = [
     ["01  MARINE LOGISTICS", [
       "Marine vessel and barge chartering.",
       "Offshore support vessel categories published",
@@ -153,7 +153,7 @@ function makePages() {
     "Elshcon publishes commitments to quality assurance, safe operations,",
     "environmental protection, legal compliance and continual improvement."
   ], muted);
-  const values = [
+  const values: [string, string][] = [
     ["SAFETY", "Identify hazards, assess operational risks and apply appropriate controls."],
     ["QUALITY", "Use quality-management principles and support continual improvement."],
     ["ENVIRONMENT", "Protect the environment and meet applicable legal requirements."],
