@@ -9,7 +9,8 @@ export default function WebsiteNotFound() {
           minHeight: "min(72vh, 720px)",
           display: "grid",
           alignContent: "center",
-          justifyItems: "start",
+          justifyItems: "center",
+          textAlign: "center",
           paddingTop: 88,
           paddingBottom: 88,
         }}
@@ -37,7 +38,7 @@ export default function WebsiteNotFound() {
             letterSpacing: "-0.045em",
             lineHeight: 1.04,
             maxWidth: 760,
-            margin: "0 0 20px",
+            margin: "0 auto 20px",
           }}
         >
           This page is outside our service directory.
@@ -48,14 +49,14 @@ export default function WebsiteNotFound() {
             maxWidth: 570,
             lineHeight: 1.85,
             fontSize: 15,
-            margin: 0,
+            margin: "0 auto",
           }}
         >
           The address may be incorrect, the page may have moved, or the link may
           no longer be available. You can return to the Elshcon website to
           explore our marine, logistics and industrial service information.
         </p>
-        <div style={{ display: "flex", flexWrap: "wrap", gap: 12, marginTop: 32 }}>
+        <div style={{ display: "flex", justifyContent: "center", flexWrap: "wrap", gap: 12, marginTop: 32 }}>
           <Link href="/website" className="ew-button ew-button-primary">
             Back to Elshcon website <span aria-hidden="true">→</span>
           </Link>
