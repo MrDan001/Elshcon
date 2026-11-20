@@ -52,6 +52,17 @@ export default function Header() {
                 </Link>
               </li>
             ))}
+            <li>
+              <Link
+                href="/compare"
+                className={`rounded-md px-3 py-2 text-sm font-semibold transition-colors hover:bg-sand ${
+                  pathname.startsWith("/compare") ? "bg-teal-50 text-teal" : "text-navy"
+                }`}
+                aria-current={pathname.startsWith("/compare") ? "page" : undefined}
+              >
+                Before / After
+              </Link>
+            </li>
           </ul>
         </nav>
 
