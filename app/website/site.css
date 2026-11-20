@@ -546,3 +546,118 @@ body:has(.ew-main) { padding-bottom: 0 !important; background: #fff; color: var(
   .ew-hero .ew-slide.is-active .ew-hero-actions { animation: ew-copy-in .85s .3s both; }
   .ew-page-hero-content { animation: ew-copy-in .8s both; }
 }
+
+
+/* Full-image presentation: preserve the complete original Elshcon photographs. */
+.ew-slide-image {
+  object-fit: contain;
+  object-position: center;
+  transform: none !important;
+  background: #071e31;
+}
+.ew-slide.is-active .ew-slide-image { transform: none !important; }
+
+.ew-service-image {
+  height: auto;
+  min-height: 0;
+  aspect-ratio: 16 / 10;
+  background: #e9eeeb;
+}
+.ew-service-image img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  object-position: center;
+  transform: none !important;
+}
+.ew-service-card:hover .ew-service-image img { transform: none !important; }
+
+.ew-split-image {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 0;
+  background: #e9eeeb;
+}
+.ew-split-image img {
+  position: relative;
+  inset: auto;
+  display: block;
+  width: 100%;
+  height: auto;
+  max-height: 620px;
+  object-fit: contain;
+  object-position: center;
+}
+.ew-image-caption { z-index: 1; }
+
+.ew-mini-card img {
+  flex: 0 0 105px;
+  width: 105px;
+  height: 110px;
+  object-fit: contain;
+  object-position: center;
+  background: #edf1ee;
+}
+
+.ew-page-hero {
+  min-height: 460px;
+  background: #071e31;
+}
+.ew-page-hero > img {
+  object-fit: contain;
+  object-position: center;
+  transform: none !important;
+  opacity: .58;
+  background: #071e31;
+}
+
+.ew-intro-image {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 0;
+  background: #e9eeeb;
+}
+.ew-intro-image img {
+  position: relative;
+  inset: auto;
+  display: block;
+  width: 100%;
+  height: auto;
+  max-height: 520px;
+  object-fit: contain;
+  object-position: center;
+}
+
+.ew-gallery-strip {
+  align-items: stretch;
+}
+.ew-gallery-strip img,
+.ew-gallery-strip img:first-child {
+  display: block;
+  width: 100%;
+  height: auto;
+  min-height: 0;
+  aspect-ratio: 4 / 3;
+  object-fit: contain;
+  object-position: center;
+  background: #e9eeeb;
+}
+
+@media (max-width: 760px) {
+  .ew-service-image { aspect-ratio: 4 / 3; }
+  .ew-split-image { min-height: 0; }
+  .ew-split-image img { max-height: none; }
+  .ew-page-hero { min-height: 390px; }
+  .ew-page-hero > img { opacity: .48; }
+  .ew-intro-image { min-height: 0; }
+  .ew-intro-image img { max-height: none; }
+  .ew-gallery-strip img,
+  .ew-gallery-strip img:first-child {
+    height: auto;
+    aspect-ratio: 4 / 3;
+    grid-column: auto;
+  }
+}
