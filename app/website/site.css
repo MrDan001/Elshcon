@@ -699,3 +699,23 @@ body:has(.ew-main) { padding-bottom: 0 !important; background: #fff; color: var(
     aspect-ratio: 4 / 3;
   }
 }
+
+
+/* Let service photographs keep their own aspect ratio at full card width. */
+.ew-services-list > .ew-service-card > .ew-service-image {
+  height: auto;
+  aspect-ratio: auto;
+}
+.ew-services-list > .ew-service-card > .ew-service-image > img {
+  display: block;
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  object-fit: initial;
+  object-position: center;
+}
+@media (max-width: 760px) {
+  .ew-services-list > .ew-service-card > .ew-service-image {
+    aspect-ratio: auto;
+  }
+}
